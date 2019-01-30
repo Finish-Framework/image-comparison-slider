@@ -1,0 +1,40 @@
+{
+  "name": "@finish/scripts.image-comparison-slider",
+  "version": "0.0.1",
+  "description": "Image Comparison Slider like twenty-twenty made with Vue.js for Finish Frakemwork",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Finish-Framework/framework"
+  },
+  "files": [],
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "laravel-mix": "^4.0.13"
+  },
+  "dependencies": {
+    "@finish/scripts.utils": "0.0.1",
+  },
+  "keywords": [
+    "ui",
+    "framework",
+    "vuejs",
+    "tailwindcss",
+    "vue",
+    "twenty-twenty",
+  ],
+  "author": "James Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Finish-Framework/framework/issues"
+  },
+  "homepage": "https://github.com/Finish-Framework/framework/blob/master/README.md"
+}
